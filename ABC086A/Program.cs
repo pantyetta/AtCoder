@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
 
-Console.WriteLine("Hello, World!");
+namespace ABC086A
+{
+    class Program
+    {
+        private static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+    
+}
