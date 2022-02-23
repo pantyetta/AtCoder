@@ -6,7 +6,15 @@ namespace ABC081A
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var count = 0;
+            var input = Console.ReadLine();
+            foreach (var t in input)
+            {
+                if (t == '1')
+                    count++;
+            }
+            
+            Console.WriteLine(count);
         }
     }
     
