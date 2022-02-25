@@ -16,9 +16,11 @@ namespace ABC083B
             for (var i = 1; i <= n; i++)
             {
                 var sum = 0;
-                foreach (var number in i.ToString())
+                int value = i;
+                while (0 < value)
                 {
-                    sum += int.Parse(number.ToString());
+                    sum += value % 10;
+                    value /= 10;
                 }
 
                 if ((a <= sum) && (sum <= b))
